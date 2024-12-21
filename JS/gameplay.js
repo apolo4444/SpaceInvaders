@@ -20,7 +20,7 @@ GamePlayManager={
 //Agregado mio
        this.rows=6
        this.columns=15;
-       this.fps=60;
+       this.fps=120;
        this.alienDirection=1;
        this.alienSpeed=this.speed*(1/this.fps)*this.alienDirection;
        this.scene=0;
@@ -183,8 +183,8 @@ GamePlayManager={
           this.scoreText = game.add.text(game.width/2, 20, '0', style);
           this.scoreText.anchor.setTo(0.5);
   
-          this.livesText=game.add.text(20,20,this.lives, style);
-          this.livesText.anchor.setTo(0.5);
+        //   this.livesText=game.add.text(20,20,this.lives, style);
+        //   this.livesText.anchor.setTo(0.5);
     }, 
 
     winScene:function(){
